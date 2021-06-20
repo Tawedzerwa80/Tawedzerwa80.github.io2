@@ -1,0 +1,64 @@
+
+body, html {
+  /* background image tobe placed in the body or the html of the respected file*/
+    background-image: url("images/weaver.JPG");
+    background-size:150px;
+    background-repeat: repeat-y;
+    background-position: center;
+    background-color:white;
+    height: 100%;
+    
+  }
+  
+ 
+   
+  /* Position text in the middle of the page/image */
+  
+    .main{
+     margin: auto;
+      width: 50%;
+      text-align: center;
+    }
+
+    .fantail{
+      text-align: left;
+      width: 400px;
+      border: 5px solid black;
+      padding: 10px;
+      margin: 10px;
+    }
+
+    .flowerhorn{
+      width: 400px;
+      border: 5px solid black;
+      padding: 10px;
+      margin: 10px;
+    }
+
+    .killifish{
+      width: 400px;
+      border: 5px solid black;
+      padding: 10px;
+      margin: 10px;
+    }
+
+    .malebeta{
+      width: 400px;
+      border: 5px solid black;
+      padding: 10px;
+      margin: 10px;
+    }
+
+    .peacok{
+      width: 400px;
+      border: 5px solid black;
+      padding: 10px;
+      margin: 10px;
+    }
+
+    
+ @media screen and (max-width: 800px) {
+  .main {
+  width: 100% ; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+  }
